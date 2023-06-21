@@ -1,14 +1,13 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Description: prints all alphabets
+ * Return: void
  *
- * Return: Always 0 (Success)
  */
 
-int main(void)
+void print_alphabet(void)
 {
 	int ch;
 
@@ -17,6 +16,5 @@ int main(void)
 		_putchar(ch);
 	}
 	_putchar('\n');
-
-	return (0);
 }
+

@@ -12,9 +12,9 @@
 int main(void)
 {
 	int max_num = 1024;
-	int sum = 0;
+	int n, sum = 0;
 
-	for (int n = 1; n < max_num; n++)
+	for (n = 1; n < max_num; n++)
 	{
 		if (n % 3 == 0 || n % 5 == 0)
 		{

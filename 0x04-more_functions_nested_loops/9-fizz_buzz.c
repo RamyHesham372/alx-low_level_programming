@@ -9,7 +9,7 @@
  *
  */
 
-void main(void)
+int main(void)
 {
 	int n;
 
@@ -41,4 +41,6 @@ void main(void)
 			printf("\n");
 		}
 	}
+
+	return (0);
 }

@@ -12,7 +12,7 @@
 
 void print_square(int size)
 {
-	int i;
+	int i, r;
 
 	if (size > 0)
 	{
